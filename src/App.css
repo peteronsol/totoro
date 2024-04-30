@@ -4,7 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
+html,
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(to bottom, #0d47a1, #1976d2);
   /* Fallback for older browsers */
   background: -webkit-linear-gradient(top, #0d47a1, #1976d2);
@@ -17,4 +21,10 @@ body {
 .comingsoon {
   width: 30rem;
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .comingsoon {
+    width: 20rem;
+  }
 }
