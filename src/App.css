@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background: linear-gradient(to bottom, #0d47a1, #1976d2);
+  /* Fallback for older browsers */
+  background: -webkit-linear-gradient(top, #0d47a1, #1976d2);
+  background: -moz-linear-gradient(top, #0d47a1, #1976d2);
+  background: -o-linear-gradient(top, #0d47a1, #1976d2);
+  background: -ms-linear-gradient(top, #0d47a1, #1976d2);
+  /* Add any necessary vendor prefixes */
+}
+
+.comingsoon {
+  width: 30rem;
+  height: auto;
+}
